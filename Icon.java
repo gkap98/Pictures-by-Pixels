@@ -20,7 +20,7 @@ public class Icon {
 // *****************
 //   Constructors
 // *****************
-    public Icon() {                                             // Constructor for no given values.         Pre set to 40x40 icon
+    public Icon() {                                  // Constructor for no given values.         Pre set to 40x40 icon
         pixels = new ArrayList<ArrayList<Pixel>>();
         for (int i = 0; i < 40; i++) {
             pixels.add(new ArrayList<Pixel>());
@@ -30,7 +30,7 @@ public class Icon {
         }
     }
 
-    public Icon(int rows, int columns) {                        // Constructor FOR given values.            NO Presets
+    public Icon(int rows, int columns) {             // Constructor FOR given values.            NO Presets
         pixels = new ArrayList<ArrayList<Pixel>>();
         for (int i = 0; i < columns; i++) {
             pixels.add(new ArrayList<Pixel>());
